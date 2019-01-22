@@ -1,6 +1,20 @@
 default of credit card clients:
-https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+source: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 
 titanic:
-https://www.kaggle.com/c/titanic/data/
+source: https://www.kaggle.com/c/titanic/data/
 
+iris:
+source: https://archive.ics.uci.edu/ml/datasets/iris
+columns (manually inserted):
+1. sepal length in cm
+2. sepal width in cm
+3. petal length in cm
+4. petal width in cm
+5. class: Iris Setosa, Iris Versicolour, Iris Virginica
+
+mnist digits:
+source: http://deeplearning.net/data/mnist/mnist.pkl.gz
+description: original dataset of handwritten digits taken from http://yann.lecun.com/exdb/mnist/ put into a python pickle for easy consumption.
+
+The pickled file represents a tuple of 3 lists : the training set, the validation set and the testing set. Each of the three lists is a pair formed from a list of images and a list of class labels for each of the images. An image is represented as numpy 1-dimensional array of 784 (28 x 28) float values between 0 and 1 (0 stands for black, 1 for white). The labels are numbers between 0 and 9 indicating which digit the image represents.
